@@ -1,0 +1,47 @@
+<resources>
+    <string name="full_app_name">Nextcloud Extension Client</string>
+
+    <string name="app_name">ncextension</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="pref_title_username">Username</string>
+    <string name="pref_title_password">Password</string>
+    <string name="pref_default_owncloudRootPath">https://1.2.3.4/nextcloud</string>
+    <string name="pref_title_owncloudRootPath">Nextcloud root address</string>
+    <string name="content_desc_show_password">Show password</string>
+    <string name="pref_title_DisableHostnameVerification">Disable Hostname Verification</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login_progress_signing_in">Signing in …</string>
+    <!-- <string name="error_incorrect_password">Incorrect password</string> -->
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_url">Incorrect URL</string>
+    <!-- Login Dialog -->
+    <string name="login_dialog_title_error">Error</string>
+    <string name="login_dialog_text_news_app_not_installed_on_server" formatted="true">It looks like your news app is not installed or activated on your server. Please follow the instructions given here to setup the news app on your server first: %1$s</string>
+    <string name="login_dialog_text_something_went_wrong">Something went wrong :(</string>
+    <string name="login_dialog_text_zero_version_code">The Web News App returned Version "0". Please take a look at the following bug report: https://github.com/nextcloud/news/issues/5#issuecomment-242883795</string>
+    <string name="login_dialog_text_not_compatible">This App version is not compatible with your Nextcloud News App. Please upgrade the news app and the appframework.</string>
+    <string name="login_dialog_title_security_warning">Security Warning</string>
+    <string name="login_dialog_text_security_warning">You\'re not using HTTPS, which is strongly encouraged. An attacker could intercept your traffic and gain access to some sensitive data (e.g. your password).</string>
+    <string name="login_dialog_select_account_unknown_error_toast">Something went wrong. Please try again.</string>
+
+
+
+    <!-- MemorizingTrustManager -->
+    <string name="mtm_accept_cert">Accept Unknown Certificate?</string>
+    <string name="mtm_decision_always">Always</string>
+    <string name="mtm_decision_abort">Abort</string>
+    <string name="mtm_notification">Certificate Verification</string>
+
+
+    <string name="login_manual">Manual login</string>
+    <string name="login_sso">Login using Nextcloud Files App</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login_dialog">LoginDialogActivity</string>
+</resources>
